@@ -1,0 +1,17 @@
+{
+    "name": "artbit/base_convert",
+    "description": "Base conversion utility that supports number bases from 2 to 64 (PHP's builtin base_convert supports number bases from 2 through 36)",
+    "type": "library",
+    "keywords": ["base conversion", "number", "math", "base64", "utility"],
+    "license": "MIT",
+    "homepage": "https://github.com/artbit/base_convert",
+    "authors": [
+        {
+            "name": "Djordje Ungar",
+            "homepage": "http://djordjeungar.com"
+        }
+    ],
+    "autoload": {
+        "files": ["src/base_convert.php"]
+    }
+}
