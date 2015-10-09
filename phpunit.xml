@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-<phpunit colors="true">
+<phpunit bootstrap="./tests/bootstrap.php" colors="true">
     <testsuites>
-        <testsuite name="Base Convert Test Suit">
-            <directory>./test/</directory>
+        <testsuite>
+            <directory>./tests</directory>
         </testsuite>
     </testsuites>
-
     <filter>
         <whitelist>
-            <directory>./</directory>
-            <exclude>
-                <directory>./test</directory>
-            </exclude>
+            <directory suffix=".php">./src</directory>
         </whitelist>
     </filter>
+    <logging>
+        <log type="coverage-html" target="build/coverage" title="base_convert()"
+            charset="UTF-8" yui="true" highlight="true"
+            lowUpperBound="35" highLowerBound="70"/>
+        <log type="coverage-clover" target="build/logs/clover.xml"/>
+    </logging>
 </phpunit>
