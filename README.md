@@ -1,5 +1,4 @@
-# Base Convert 2-64
-
+# Base Convert [2..64]
 PHP's built in `base_convert` function supports bases ranging from 2 to 36. This library expands that range to 2 to 64.
 
 ## Status 
