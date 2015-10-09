@@ -1,8 +1,6 @@
 # Base Convert [2..64]
-PHP's built in `base_convert` function supports bases ranging from 2 to 36. This library expands that range to 2 to 64.
-
-## Status 
 [![Build Status](https://travis-ci.org/ArtBIT/base_convert.svg?branch=master)](https://travis-ci.org/ArtBIT/base_convert)
+PHP's built in `base_convert` function supports bases ranging from 2 to 36. This library expands that range to 2 to 64.
 
 # Usage
 Convert a number 100 from decimal to hexadecimal:
