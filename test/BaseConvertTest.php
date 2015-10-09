@@ -3,9 +3,9 @@
 include(../base_convert.php);
 
 /**
- * LibMathBaseConvertTest
+ * BaseConvertTest
  */
-class LibMathBaseConvertTest extends PHPUnit_Framework_TestCase {
+class BaseConvertTest extends PHPUnit_Framework_TestCase {
 
     /**
      * @test
