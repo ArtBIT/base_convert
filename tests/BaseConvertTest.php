@@ -6,7 +6,6 @@
 class BaseConvertTest extends \PHPUnit_Framework_TestCase {
 
     /**
-     * @test
      * @dataProvider provider_base_convert_checks
      */
     public function test_base_convert($value, $from_base, $to_base, $expected_result) {
