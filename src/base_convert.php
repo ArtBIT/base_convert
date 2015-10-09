@@ -101,5 +101,3 @@ function base_convert_alphabets($value, $from_alphabet, $to_alphabet) {
 
     return $result;
 }
-
-?>
