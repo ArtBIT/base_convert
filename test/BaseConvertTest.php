@@ -1,6 +1,6 @@
 <? 
 
-include('../base_convert.php');
+include(dirname(__DIR__).'/base_convert.php');
 
 /**
  * BaseConvertTest
@@ -36,7 +36,7 @@ class BaseConvertTest extends PHPUnit_Framework_TestCase {
                 }
             }
         }
-        $data[] = array('BJlgLS', 64, 10, '1234567890');
+        $data[] = array('19bWBI', 64, 10, '1234567890');
         // You can also use custom alphabets instead of integer bases
         // (since integer bases are expanded to alphabet strings anyways).
         // Here we convert from base 10 to alphabet 'customizable'
