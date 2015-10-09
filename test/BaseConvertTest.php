@@ -1,6 +1,6 @@
 <? 
 
-include(../base_convert.php);
+include('../base_convert.php');
 
 /**
  * BaseConvertTest
@@ -12,7 +12,7 @@ class BaseConvertTest extends PHPUnit_Framework_TestCase {
      * @dataProvider provider_base_convert_checks
      */
     public function test_base_convert($value, $from_base, $to_base, $expected_result) {
-        $result = math/base_convert($value, $from_base, $to_base);
+        $result = math\base_convert($value, $from_base, $to_base);
         $this->assertEquals($result, $expected_result);
     }
 
