@@ -1,6 +1,6 @@
 <? 
 
-include(dirname(__DIR__).'/base_convert.php');
+require_once dirname(__FILE__) . '/../base_convert.php';
 
 /**
  * BaseConvertTest
