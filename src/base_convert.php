@@ -86,9 +86,6 @@ function base_convert_alphabets($value, $from_alphabet, $to_alphabet) {
 
     $to_base_chars = str_split($to_alphabet, 1);
     if ($base10_value < strlen($to_alphabet)) {
-        if ($base10_value > strlen($to_alphabet)) {
-            dre_notice('HMM', func_get_args());
-        }
         return $to_base_chars[$base10_value];
     }
 
