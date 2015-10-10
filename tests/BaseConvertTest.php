@@ -1,5 +1,7 @@
 <? 
 
+require_once dirname(__FILE__) . '/../src/base_convert.php';
+
 /**
  * BaseConvertTest
  */
