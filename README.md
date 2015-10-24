@@ -1,5 +1,5 @@
 # Base Convert [2..64]
-[![Build Status](https://travis-ci.org/ArtBIT/base_convert.svg?branch=master)](https://travis-ci.org/ArtBIT/base_convert) [![GitHub license](https://img.shields.io/github/license/ArtBIT/base_convert.svg)](https://github.com/ArtBIT/base_convert) [![GitHub stars](https://img.shields.io/github/stars/ArtBIT/base_convert.svg)](https://github.com/ArtBIT/base_convert)  [![Coverage Status](https://coveralls.io/repos/ArtBIT/base_convert/badge.svg?branch=master)](https://coveralls.io/r/ArtBIT/base_convert?branch=master) [![awesomeness](https://img.shields.io/badge/awesomeness-maximum-red.svg)](https://github.com/ArtBIT/base_convert)
+[![Build Status](https://travis-ci.org/ArtBIT/base_convert.svg?branch=master)](https://travis-ci.org/ArtBIT/base_convert) [![GitHub license](https://img.shields.io/github/license/ArtBIT/base_convert.svg)](https://github.com/ArtBIT/base_convert) [![GitHub stars](https://img.shields.io/github/stars/ArtBIT/base_convert.svg)](https://github.com/ArtBIT/base_convert)  [![awesomeness](https://img.shields.io/badge/awesomeness-maximum-red.svg)](https://github.com/ArtBIT/base_convert)
 
 PHP's built in `base_convert` function supports bases ranging from 2 to 36. This library expands that range to 2 to 64.
 
