@@ -39,4 +39,4 @@ echo math\base_convert('rorsirrioig', 'isogram', 10);
 
 # License
 
-[MIT](/ArtBIT/base_convert/blob/master/LICENSE.md)
+[MIT](LICENSE.md)
