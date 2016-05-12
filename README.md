@@ -16,7 +16,7 @@ echo math\base_convert(64, 16, 10);
 ```
 
 ## Custom alphabets
-Instead of integer bases, you can pass in the alphabet string to use for conversion (since integer bases are converted to alphabet strings anyways).
+Instead of integer bases, you can pass in the alphabet string to use for conversion (since integer bases are converted to alphabet strings anyways, i.e. hexadecimal alphabet is simply "0123456789abcdef").
 
 Here we convert from base 10 to alphabet 'customizable'
 ```php
@@ -30,11 +30,13 @@ echo math\base_convert('slmmmmcui', 'customizable', 'isogram');
 // echoes 'rorsirrioig'
 ```
 
-And back to base 10
+And back from alphabet 'isogram' to base 10
 ```php
 echo math\base_convert('rorsirrioig', 'isogram', 10);
 // echoes '1234567890'
 ```
+*NOTE:* Alphabets must be [isograms](https://en.wikipedia.org/wiki/Isogram)
+
 # License
 
 MIT
