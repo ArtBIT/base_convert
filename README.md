@@ -30,12 +30,12 @@ echo math\base_convert('slmmmmcui', 'customizable', 'isogram');
 // echoes 'rorsirrioig'
 ```
 
-And back from alphabet 'isogram' to base 10
+And from alphabet 'isogram' back to base 10
 ```php
 echo math\base_convert('rorsirrioig', 'isogram', 10);
 // echoes '1234567890'
 ```
-*NOTE:* Alphabets must be [isograms](https://en.wikipedia.org/wiki/Isogram)
+*NOTE:* All alphabets must be [isograms](https://en.wikipedia.org/wiki/Isogram)
 
 # License
 
