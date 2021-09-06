@@ -35,6 +35,9 @@ And from alphabet 'isogram' back to base 10
 echo math\base_convert('rorsirrioig', 'isogram', 10);
 // echoes '1234567890'
 ```
+
+So both `slmmmmcui` and `rorsirrioig`, but also `1234567890` describe the same value, but in different alphabets.
+
 *NOTE:* All alphabets must be [isograms](https://en.wikipedia.org/wiki/Isogram)
 An isogram (also known as a "nonpattern word") is a logological term for a word or phrase without a repeating letter. Conveniently, the word `isogram` is an isogram as well.
 
