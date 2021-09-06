@@ -4,7 +4,7 @@
 PHP's built in `base_convert` function supports bases ranging from 2 to 36. This library expands that range to 2 to 64.
 
 # Usage
-Convert a number 100 from decimal to hexadecimal:
+Convert a number 100 from decimal to hexadecimal (from base 10 to base 16):
 ```php
 echo math\base_convert(100, 10, 16); 
 // echoes '64'
@@ -36,7 +36,8 @@ echo math\base_convert('rorsirrioig', 'isogram', 10);
 // echoes '1234567890'
 ```
 *NOTE:* All alphabets must be [isograms](https://en.wikipedia.org/wiki/Isogram)
+An isogram (also known as a "nonpattern word") is a logological term for a word or phrase without a repeating letter. Conveniently, the word `isogram` is an isogram as well.
 
 # License
 
-[MIT](LICENSE.md)
+[MIT](LICENSE)
