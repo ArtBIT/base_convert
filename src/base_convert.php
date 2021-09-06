@@ -46,7 +46,7 @@ function base_convert($value, $from_base, $to_base) {
 }
 
 function get_alphabet_for_base($base) {
-    return substr('0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz+/', 0, (int)$base);
+    return substr('0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz-_', 0, (int)$base);
 }
 
 /**
